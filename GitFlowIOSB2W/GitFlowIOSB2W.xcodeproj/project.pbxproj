@@ -101,9 +101,7 @@
 			children = (
 				D88437392530F631008A596D /* Bravo */,
 				D88437382530F629008A596D /* Ramiro */,
-				D88437372530F623008A596D /* Digao */,
 				D88437362530F61C008A596D /* Leozin */,
-				D88437352530F610008A596D /* Callado */,
 				D88437342530F60B008A596D /* Eduardo */,
 				D88437062530F5F9008A596D /* GitFlowIOSB2WApp.swift */,
 				D88437082530F5F9008A596D /* ContentView.swift */,
@@ -147,25 +145,11 @@
 			path = Eduardo;
 			sourceTree = "<group>";
 		};
-		D88437352530F610008A596D /* Callado */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Callado;
-			sourceTree = "<group>";
-		};
 		D88437362530F61C008A596D /* Leozin */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Leozin;
-			sourceTree = "<group>";
-		};
-		D88437372530F623008A596D /* Digao */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Digao;
 			sourceTree = "<group>";
 		};
 		D88437382530F629008A596D /* Ramiro */ = {
