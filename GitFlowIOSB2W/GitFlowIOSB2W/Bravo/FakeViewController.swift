@@ -12,7 +12,7 @@ class FakeViewController: UIViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		print("Boa sorte digão!")
+		print("Boa sorte digão e callado!")
 	}
 	
 }
