@@ -13,6 +13,8 @@
 		D884370E2530F5FB008A596D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D884370D2530F5FB008A596D /* Preview Assets.xcassets */; };
 		D88437192530F5FB008A596D /* GitFlowIOSB2WTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88437182530F5FB008A596D /* GitFlowIOSB2WTests.swift */; };
 		D88437242530F5FB008A596D /* GitFlowIOSB2WUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88437232530F5FB008A596D /* GitFlowIOSB2WUITests.swift */; };
+		D884373B2530F7B3008A596D /* UIView+Something.swift in Sources */ = {isa = PBXBuildFile; fileRef = D884373A2530F7B3008A596D /* UIView+Something.swift */; };
+		D88437402530F82E008A596D /* FakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D884373F2530F82E008A596D /* FakeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		D884371F2530F5FB008A596D /* GitFlowIOSB2WUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitFlowIOSB2WUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88437232530F5FB008A596D /* GitFlowIOSB2WUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitFlowIOSB2WUITests.swift; sourceTree = "<group>"; };
 		D88437252530F5FB008A596D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D884373A2530F7B3008A596D /* UIView+Something.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Something.swift"; sourceTree = "<group>"; };
+		D884373F2530F82E008A596D /* FakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +178,8 @@
 		D88437392530F631008A596D /* Bravo */ = {
 			isa = PBXGroup;
 			children = (
+				D884373A2530F7B3008A596D /* UIView+Something.swift */,
+				D884373F2530F82E008A596D /* FakeViewController.swift */,
 			);
 			path = Bravo;
 			sourceTree = "<group>";
@@ -308,7 +314,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D88437092530F5F9008A596D /* ContentView.swift in Sources */,
+				D88437402530F82E008A596D /* FakeViewController.swift in Sources */,
 				D88437072530F5F9008A596D /* GitFlowIOSB2WApp.swift in Sources */,
+				D884373B2530F7B3008A596D /* UIView+Something.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
